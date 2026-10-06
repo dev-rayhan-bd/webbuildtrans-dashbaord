@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -17,8 +17,10 @@
     "@tiptap/starter-kit": "^3.23.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^8.2.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.474.0",
+    "node-fetch": "^3.3.2",
     "radix-ui": "^1.4.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
